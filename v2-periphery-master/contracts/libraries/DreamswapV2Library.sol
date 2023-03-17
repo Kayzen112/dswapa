@@ -21,7 +21,7 @@ library DreamswapV2Library {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'912a7665dc944e3ad1041c80ed902116211f588ec015389033fb5e54c0f334f4' // init code hash
+                hex'3569e9cc4f637721f292b483e72e83d5f82fed8320c23a4d832f3e597ddce793' // init code hash
             ))));
     }
 
