@@ -720,7 +720,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-core-master/contracts/interfaces/IDreamswapV2Pair.sol": "IUniswapV2Pair"
+			"v2-core-master/contracts/interfaces/IDreamswapV2Pair.sol": "IDreamswapV2Pair"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

@@ -194,7 +194,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-core-master/contracts/interfaces/IDreamswapV2Factory.sol": "IUniswapV2Factory"
+			"v2-core-master/contracts/interfaces/IDreamswapV2Factory.sol": "IDreamswapV2Factory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

@@ -726,7 +726,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-core-master/contracts/UniswapV2Pair.sol": "UniswapV2Pair"
+			"v2-core-master/contracts/DreamswapV2Pair.sol": "DreamswapV2Pair"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -737,14 +737,14 @@
 		"remappings": []
 	},
 	"sources": {
-		"v2-core-master/contracts/UniswapV2ERC20.sol": {
+		"v2-core-master/contracts/DreamswapV2ERC20.sol": {
 			"keccak256": "0x0599f3684aef3e5f1144e14df1ddd39be24948b7cff125af9c9beca4bc94e1a2",
 			"urls": [
 				"bzz-raw://962b5efd230c60ce591afed08be4f1def46222da230a527c98c92ee27cf64583",
 				"dweb:/ipfs/Qmf5wW4T7F9sNQ1eAgaj94KcFS3hrtU5tTZyPZr8QhgXr8"
 			]
 		},
-		"v2-core-master/contracts/UniswapV2Pair.sol": {
+		"v2-core-master/contracts/DreamswapV2Pair.sol": {
 			"keccak256": "0x2d4487b3f8d8df824fcbe90b033e64014de2e96b939560698e937fe7dd21af3a",
 			"urls": [
 				"bzz-raw://e892c70cac05dbae811203d5f3d595125a4e433b8a3a5dfa6ed445a411cb052f",
@@ -758,28 +758,28 @@
 				"dweb:/ipfs/QmSyY7iTugbczPwfGK67etiyPULenYGzzRYbt8aabwwkUb"
 			]
 		},
-		"v2-core-master/contracts/interfaces/IUniswapV2Callee.sol": {
+		"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": {
 			"keccak256": "0xdb17a1fb73e261e736ae8862be2d9a32964fc4b3741f48980f5cdc9d92b99a96",
 			"urls": [
 				"bzz-raw://468dab23a95d9d9b7d6ce74008d45eef3de2f137ede604e6be6c5e7d0121c5e9",
 				"dweb:/ipfs/QmcXwjTfp6tCRgf1KsNQyUAtrqKhiaN6fbaHVGr22eficP"
 			]
 		},
-		"v2-core-master/contracts/interfaces/IUniswapV2ERC20.sol": {
+		"v2-core-master/contracts/interfaces/IDreamswapV2ERC20.sol": {
 			"keccak256": "0x9e433765e9ef7b4ff5e406b260b222c47c2aa27d36df756db708064fcb239ae7",
 			"urls": [
 				"bzz-raw://5b67c24a5e1652b51ad2f37adad2905519f0e05e7c8b2b4d8b3e00b429bb9213",
 				"dweb:/ipfs/QmarJq43GabAGGSqtMUb87ACYQt73mSFbXKyFAPDXpbFNM"
 			]
 		},
-		"v2-core-master/contracts/interfaces/IUniswapV2Factory.sol": {
+		"v2-core-master/contracts/interfaces/IDreamswapV2Factory.sol": {
 			"keccak256": "0x94a2f667f1833885929b684f650f968e4343a01ae7381f8aaa640c454648d8a3",
 			"urls": [
 				"bzz-raw://d1b4ce93acffcd0c1eaecdc5695395732b51f0aaffb71dfb17e8573f25a05ea4",
 				"dweb:/ipfs/QmP9LXVKUyZvsnqYA2wYxUuiHxNaAgjipxpvNvk2hdEpQk"
 			]
 		},
-		"v2-core-master/contracts/interfaces/IUniswapV2Pair.sol": {
+		"v2-core-master/contracts/interfaces/IDreamswapV2Pair.sol": {
 			"keccak256": "0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b",
 			"urls": [
 				"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf",

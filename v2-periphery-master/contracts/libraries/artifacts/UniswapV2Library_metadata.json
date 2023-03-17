@@ -14,7 +14,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-periphery-master/contracts/libraries/UniswapV2Library.sol": "UniswapV2Library"
+			"v2-periphery-master/contracts/libraries/DreamswapV2Library.sol": "DreamswapV2Library"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -28,7 +28,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+		"@uniswap/v2-core/contracts/interfaces/IDreamswapV2Pair.sol": {
 			"keccak256": "0x7c9bc70e5996c763e02ff38905282bc24fb242b0ef2519a003b36824fc524a4b",
 			"urls": [
 				"bzz-raw://85d5ad2dd23ee127f40907a12865a1e8cb5828814f6f2480285e1827dd72dedf",
@@ -42,7 +42,7 @@
 				"dweb:/ipfs/QmUAdiG9XNcieXkKfiMB49zQqD34FbXFE15csV2KQzwEqg"
 			]
 		},
-		"v2-periphery-master/contracts/libraries/UniswapV2Library.sol": {
+		"v2-periphery-master/contracts/libraries/DreamswapV2Library.sol": {
 			"keccak256": "0x111c5c2315428b3776a429dec02658b55ac2340b6a984012eae4ce3d916fc3f7",
 			"urls": [
 				"bzz-raw://7ad848aae36c43ab09be1c711c5fec2b44098ecb77afce038d79694925661b2e",

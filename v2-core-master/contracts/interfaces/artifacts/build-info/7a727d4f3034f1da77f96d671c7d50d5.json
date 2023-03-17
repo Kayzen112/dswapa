@@ -6,8 +6,8 @@
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"v2-core-master/contracts/interfaces/IUniswapV2Callee.sol": {
-				"content": "pragma solidity >=0.5.0;\n\ninterface IUniswapV2Callee {\n    function UniswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n"
+			"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": {
+				"content": "pragma solidity >=0.5.0;\n\ninterface IDreamswapV2Callee {\n    function DreamswapV2Call(address sender, uint amount0, uint amount1, bytes calldata data) external;\n}\n"
 			}
 		},
 		"settings": {
@@ -39,8 +39,8 @@
 	},
 	"output": {
 		"contracts": {
-			"v2-core-master/contracts/interfaces/IUniswapV2Callee.sol": {
-				"IUniswapV2Callee": {
+			"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": {
+				"IDreamswapV2Callee": {
 					"abi": [
 						{
 							"constant": false,
@@ -66,7 +66,7 @@
 									"type": "bytes"
 								}
 							],
-							"name": "UniswapV2Call",
+							"name": "DreamswapV2Call",
 							"outputs": [],
 							"payable": false,
 							"stateMutability": "nonpayable",
@@ -93,10 +93,10 @@
 						"gasEstimates": null,
 						"legacyAssembly": null,
 						"methodIdentifiers": {
-							"UniswapV2Call(address,uint256,uint256,bytes)": "02f0228d"
+							"DreamswapV2Call(address,uint256,uint256,bytes)": "02f0228d"
 						}
 					},
-					"metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"UniswapV2Call\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"v2-core-master/contracts/interfaces/IUniswapV2Callee.sol\":\"IUniswapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"v2-core-master/contracts/interfaces/IUniswapV2Callee.sol\":{\"keccak256\":\"0x3dffbab783df33bd5228e57766f94d30b848a428ecabbe5d7e0b40c6879ac226\",\"urls\":[\"bzz-raw://f3a710c039f8b42a18cd6b8ee19e5da9d37a7795f5233e84aa996f0ee75504c5\",\"dweb:/ipfs/QmbnUCBJwtKa1uGVfks9BdxTNrM77oAUdBH56c9QbxbaFH\"]}},\"version\":1}",
+					"metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"sender\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount0\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amount1\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"DreamswapV2Call\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol\":\"IDreamswapV2Callee\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol\":{\"keccak256\":\"0x3dffbab783df33bd5228e57766f94d30b848a428ecabbe5d7e0b40c6879ac226\",\"urls\":[\"bzz-raw://f3a710c039f8b42a18cd6b8ee19e5da9d37a7795f5233e84aa996f0ee75504c5\",\"dweb:/ipfs/QmbnUCBJwtKa1uGVfks9BdxTNrM77oAUdBH56c9QbxbaFH\"]}},\"version\":1}",
 					"storageLayout": {
 						"storage": [],
 						"types": null
@@ -108,11 +108,11 @@
 			}
 		},
 		"sources": {
-			"v2-core-master/contracts/interfaces/IUniswapV2Callee.sol": {
+			"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": {
 				"ast": {
-					"absolutePath": "v2-core-master/contracts/interfaces/IUniswapV2Callee.sol",
+					"absolutePath": "v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol",
 					"exportedSymbols": {
-						"IUniswapV2Callee": [
+						"IDreamswapV2Callee": [
 							13
 						]
 					},
@@ -140,7 +140,7 @@
 							"linearizedBaseContracts": [
 								13
 							],
-							"name": "IUniswapV2Callee",
+							"name": "IDreamswapV2Callee",
 							"nodeType": "ContractDefinition",
 							"nodes": [
 								{
@@ -150,7 +150,7 @@
 									"implemented": false,
 									"kind": "function",
 									"modifiers": [],
-									"name": "UniswapV2Call",
+									"name": "DreamswapV2Call",
 									"nodeType": "FunctionDefinition",
 									"parameters": {
 										"id": 10,

@@ -29,7 +29,7 @@
 						"type": "bytes"
 					}
 				],
-				"name": "UniswapV2Call",
+				"name": "DreamswapV2Call",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": "IUniswapV2Callee"
+			"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": "IDreamswapV2Callee"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

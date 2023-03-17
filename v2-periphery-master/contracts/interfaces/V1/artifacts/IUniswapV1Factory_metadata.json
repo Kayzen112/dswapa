@@ -34,7 +34,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-periphery-master/contracts/interfaces/V1/IUniswapV1Factory.sol": "IUniswapV1Factory"
+			"v2-periphery-master/contracts/interfaces/V1/IDreamswapV1Factory.sol": "IDreamswapV1Factory"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -48,7 +48,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"v2-periphery-master/contracts/interfaces/V1/IUniswapV1Factory.sol": {
+		"v2-periphery-master/contracts/interfaces/V1/IDreamswapV1Factory.sol": {
 			"keccak256": "0x2a554e26d874fa4b10736f2e2ac1ba6253cd1ad08a97bd941cb0a41015565589",
 			"urls": [
 				"bzz-raw://bbe29db0ebf08621cb4211219c02262be9c7510fe03bab94f849a38993f957d6",

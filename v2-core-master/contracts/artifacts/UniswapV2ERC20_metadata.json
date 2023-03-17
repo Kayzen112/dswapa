@@ -357,7 +357,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-core-master/contracts/DreamswapV2ERC20.sol": "UniswapV2ERC20"
+			"v2-core-master/contracts/DreamswapV2ERC20.sol": "DreamswapV2ERC20"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -375,7 +375,7 @@
 				"dweb:/ipfs/QmRgUiS1yRY6VkSnJP2bD546Fh5sDXPgCE3xU3s5WVBoLk"
 			]
 		},
-		"v2-core-master/contracts/interfaces/IUniswapV2ERC20.sol": {
+		"v2-core-master/contracts/interfaces/IDreamswapV2ERC20.sol": {
 			"keccak256": "0x9e433765e9ef7b4ff5e406b260b222c47c2aa27d36df756db708064fcb239ae7",
 			"urls": [
 				"bzz-raw://5b67c24a5e1652b51ad2f37adad2905519f0e05e7c8b2b4d8b3e00b429bb9213",

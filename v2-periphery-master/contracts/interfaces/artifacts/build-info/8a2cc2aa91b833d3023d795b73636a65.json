@@ -6,8 +6,8 @@
 	"input": {
 		"language": "Solidity",
 		"sources": {
-			"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": {
-				"content": "pragma solidity >=0.5.0;\n\ninterface IUniswapV2Migrator {\n    function migrate(address token, uint amountTokenMin, uint amountETHMin, address to, uint deadline) external;\n}\n"
+			"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol": {
+				"content": "pragma solidity >=0.5.0;\n\ninterface IDreamswapV2Migrator {\n    function migrate(address token, uint amountTokenMin, uint amountETHMin, address to, uint deadline) external;\n}\n"
 			}
 		},
 		"settings": {
@@ -39,8 +39,8 @@
 	},
 	"output": {
 		"contracts": {
-			"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": {
-				"IUniswapV2Migrator": {
+			"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol": {
+				"IDreamswapV2Migrator": {
 					"abi": [
 						{
 							"inputs": [
@@ -100,7 +100,7 @@
 							"migrate(address,uint256,uint256,address,uint256)": "b7df1d25"
 						}
 					},
-					"metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountTokenMin\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountETHMin\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol\":\"IUniswapV2Migrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol\":{\"keccak256\":\"0xa83ac0f597c04134b3ea423fd55d3077e952197c1991e23c4e304bfb35a90124\",\"urls\":[\"bzz-raw://ec1a3358caaa80af192bf4a8913041b037736412d7d6d5e894d58dadfab3a1da\",\"dweb:/ipfs/QmbYVrgxQZVevcBgTcPUFutk5mpj61BAdmTPMXGiBt1vA8\"]}},\"version\":1}",
+					"metadata": "{\"compiler\":{\"version\":\"0.6.6+commit.6c089d02\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"token\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amountTokenMin\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"amountETHMin\",\"type\":\"uint256\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"deadline\",\"type\":\"uint256\"}],\"name\":\"migrate\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol\":\"IDreamswapV2Migrator\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol\":{\"keccak256\":\"0xa83ac0f597c04134b3ea423fd55d3077e952197c1991e23c4e304bfb35a90124\",\"urls\":[\"bzz-raw://ec1a3358caaa80af192bf4a8913041b037736412d7d6d5e894d58dadfab3a1da\",\"dweb:/ipfs/QmbYVrgxQZVevcBgTcPUFutk5mpj61BAdmTPMXGiBt1vA8\"]}},\"version\":1}",
 					"storageLayout": {
 						"storage": [],
 						"types": null
@@ -112,11 +112,11 @@
 			}
 		},
 		"sources": {
-			"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": {
+			"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol": {
 				"ast": {
-					"absolutePath": "v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol",
+					"absolutePath": "v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol",
 					"exportedSymbols": {
-						"IUniswapV2Migrator": [
+						"IDreamswapV2Migrator": [
 							15
 						]
 					},
@@ -145,7 +145,7 @@
 							"linearizedBaseContracts": [
 								15
 							],
-							"name": "IUniswapV2Migrator",
+							"name": "IDreamswapV2Migrator",
 							"nodeType": "ContractDefinition",
 							"nodes": [
 								{

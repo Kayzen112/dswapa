@@ -48,7 +48,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": "IDreamswapV2Migrator"
+			"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol": "IDreamswapV2Migrator"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -62,7 +62,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": {
+		"v2-periphery-master/contracts/interfaces/IDreamswapV2Migrator.sol": {
 			"keccak256": "0x7362264c5da3108db178cf777d2cbafcd74d067a50393d03de3949d84d961350",
 			"urls": [
 				"bzz-raw://18cf7f8ecf76d73ecb15c0a7e8bd4fe2851eda7c1378687968e037099a3d8c8e",

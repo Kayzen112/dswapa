@@ -966,7 +966,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"v2-periphery-master/contracts/interfaces/IUniswapV2Router02.sol": "IUniswapV2Router02"
+			"v2-periphery-master/contracts/interfaces/IDreamswapV2Router02.sol": "IDreamswapV2Router02"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -980,14 +980,14 @@
 		"remappings": []
 	},
 	"sources": {
-		"v2-periphery-master/contracts/interfaces/IUniswapV2Router01.sol": {
+		"v2-periphery-master/contracts/interfaces/IDreamswapV2Router01.sol": {
 			"keccak256": "0x8a3c5c449d4b7cd76513ed6995f4b86e4a86f222c770f8442f5fc128ce29b4d2",
 			"urls": [
 				"bzz-raw://1df63ca373dafae3bd0ee7fe70f890a1dc7c45ed869c01de68413e0e97ff9deb",
 				"dweb:/ipfs/QmefJgEYGUL8KX7kQKYTrDweF8GB7yjy3nw5Bmqzryg7PG"
 			]
 		},
-		"v2-periphery-master/contracts/interfaces/IUniswapV2Router02.sol": {
+		"v2-periphery-master/contracts/interfaces/IDreamswapV2Router02.sol": {
 			"keccak256": "0x744e30c133bd0f7ca9e7163433cf6d72f45c6bb1508c2c9c02f1a6db796ae59d",
 			"urls": [
 				"bzz-raw://9bf2f4454ad63d4cff03a0630e787d9e8a9deed80aec89682cd8ad6379d9ef8c",
