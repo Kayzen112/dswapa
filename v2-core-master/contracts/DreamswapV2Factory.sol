@@ -8,7 +8,7 @@ contract DreamswapV2Factory is IDreamswapV2Factory {
     address public feeToSetter;
 
     bytes32 public constant INIT_CODE_HASH = keccak256(abi.encodePacked(type(DreamswapV2Pair).creationCode));
-A
+
     mapping(address => mapping(address => address)) public getPair;
     address[] public allPairs;
 

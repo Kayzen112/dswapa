@@ -15,7 +15,7 @@ contract DreamswapV2ERC20 is IDreamswapV2ERC20 {
 
     bytes32 public DOMAIN_SEPARATOR;
     // keccak256("Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)");
-    bytes32 public constant PERMIT_TYPEHASH =  0x912a7665dc944e3ad1041c80ed902116211f588ec015389033fb5e54c0f334f4;
+    bytes32 public constant PERMIT_TYPEHASH =  0x3569e9cc4f637721f292b483e72e83d5f82fed8320c23a4d832f3e597ddce793;
     mapping(address => uint) public nonces;
 
     event Approval(address indexed owner, address indexed spender, uint value);
