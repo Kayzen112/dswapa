@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountTokenMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amountETHMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					}
+				],
+				"name": "migrate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": "IDreamswapV2Migrator"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"v2-periphery-master/contracts/interfaces/IUniswapV2Migrator.sol": {
+			"keccak256": "0x7362264c5da3108db178cf777d2cbafcd74d067a50393d03de3949d84d961350",
+			"urls": [
+				"bzz-raw://18cf7f8ecf76d73ecb15c0a7e8bd4fe2851eda7c1378687968e037099a3d8c8e",
+				"dweb:/ipfs/QmUGnExQ3WTZ2PjFRnrL8uvoXyLVCQDcRXJhfWvHfx14Kb"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "DreamswapV2Call",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": "IDreamswapV2Callee"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"v2-core-master/contracts/interfaces/IDreamswapV2Callee.sol": {
+			"keccak256": "0x85c461f8f4a2913dd4ab5871751132d3ebfff50b848e0e0075fe569812656b25",
+			"urls": [
+				"bzz-raw://8a7a90b1c428d49037451f54231b75694286b842204494f3736d2177da65e14f",
+				"dweb:/ipfs/QmR9SarH8t35VM3KofzrfPApxk5Lew9H6eP1gTD239thsv"
+			]
+		}
+	},
+	"version": 1
+}

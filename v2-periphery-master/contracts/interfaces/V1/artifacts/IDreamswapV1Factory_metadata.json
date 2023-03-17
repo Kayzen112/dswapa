@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "getExchange",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"v2-periphery-master/contracts/interfaces/V1/IDreamswapV1Factory.sol": "IDreamswapV1Factory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"v2-periphery-master/contracts/interfaces/V1/IDreamswapV1Factory.sol": {
+			"keccak256": "0x19b4d35a96dfc4acf0a3d315de6a88dff9d9fa51b7250310cc416134c9043cac",
+			"urls": [
+				"bzz-raw://41b1a5578790a715d90e8f52aa17e75179f332dcd8eef5415223bd8db6583dac",
+				"dweb:/ipfs/QmNwwSRzRrv219Lp6pvqTESU9QTYJTeETdMvcNivtMEDjw"
+			]
+		}
+	},
+	"version": 1
+}

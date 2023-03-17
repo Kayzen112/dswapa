@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"v2-periphery-master/contracts/libraries/DreamswapV2Library.sol": "DreamswapV2Library"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"/v2-core-master/contracts/interfaces/IDreamswapV2Pair.sol": {
+			"keccak256": "0xec9936d45254388c10bdb45638d239e23097bcc30109683d242d2ab9456bddda",
+			"urls": [
+				"bzz-raw://4194098468022bdb2adcfd536b4b56dd3fc6222e9f29714250adcbdee6f7b2e1",
+				"dweb:/ipfs/QmZaBzz6E9mBJppyhHTzVYckLgRzyfLnHAETMcnYgRfrvu"
+			]
+		},
+		"v2-periphery-master/contracts/libraries/DreamswapV2Library.sol": {
+			"keccak256": "0x0755819ca210082f43c86e7cf99f3b0e5c1144dbdc6eb1f1570e2674720d9dc5",
+			"urls": [
+				"bzz-raw://047f2aed0fca9fcd9aacb141fe76debdc8e68f9906f2587fa1ab9da033eedffa",
+				"dweb:/ipfs/QmTJbDRgggsASUnTrDmz7xqrgFTdNu5WDCf96iXsktgxBB"
+			]
+		},
+		"v2-periphery-master/contracts/libraries/SafeMath.sol": {
+			"keccak256": "0x27f0ea82f879b3b01387b583e6d9d0ec858dca3b22b0aad173f8fbda06e761e1",
+			"urls": [
+				"bzz-raw://0db9cf37793eb7035f0bfced36323d240f0212150009c39a3a108701d9b50b6c",
+				"dweb:/ipfs/QmUAdiG9XNcieXkKfiMB49zQqD34FbXFE15csV2KQzwEqg"
+			]
+		}
+	},
+	"version": 1
+}
